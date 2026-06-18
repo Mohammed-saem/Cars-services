@@ -39,8 +39,11 @@ const Home = () => {
   return (
     <div ref={containerRef}>
       <div style={{ position: "relative", minHeight: "100vh", width: "100%", overflow: "hidden" }}>
+
+
         <video autoPlay loop muted playsInline style={{ position: "absolute", width: "100%", height: "100%", objectFit: "cover", top: 0, left: 0, zIndex: -1 }}>
-          <source src="/src/assets/carvidoes.mp4" type="video/mp4" />
+
+          <source src="/carvidoes.mp4" type="video/mp4" />
         </video>
 
         <div style={{ position: "absolute", top: "22%", left: "10%", width: isMobile ? "85%" : "80%", textAlign: "left" }}>
