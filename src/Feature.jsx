@@ -40,7 +40,7 @@ const Feature = () => {
       </h1>
       <div style={{ display: "flex", gap: "20px", flexWrap: "wrap" }}>
 
-        <div style={{ background: "#111", border: "1px solid #2a2a2a", borderRadius: "16px", overflow: "hidden", flex: "1", minWidth: "280px" }}>
+        <div  className="image-card"  style={{ background: "#111", border: "1px solid #2a2a2a", borderRadius: "16px", overflow: "hidden", flex: "1", minWidth: "280px" }}>
 
           <div style={{ position: "relative" }}>
 
@@ -55,7 +55,7 @@ const Feature = () => {
             >Ceramic Shielding</p>
             
           </div>
-          <div style={{ padding: "24px" }}>
+          <div  style={{ padding: "24px" }}>
             <p style={{ color: "#bdbdbd", fontSize: "14px", lineHeight: "1.7", marginBottom: "16px" }}>Multi-layer ceramic systems for sustained gloss retention, UV resistance, and effortless maintenance washes.</p>
             <p style={{ color: "white", fontSize: "14px", marginBottom: "8px" }}>✓ Hydrophobic, self-cleaning surface behavior</p>
             <p style={{ color: "white", fontSize: "14px", marginBottom: "8px" }}>✓ Chemical resistance and swirl defence</p>
@@ -73,7 +73,7 @@ const Feature = () => {
           </div>
         </div>
 
-        <div style={{ background: "#111", border: "1px solid #2a2a2a", borderRadius: "16px", overflow: "hidden", flex: "1", minWidth: "280px" }}>
+        <div className="image-card" style={{ background: "#111", border: "1px solid #2a2a2a", borderRadius: "16px", overflow: "hidden", flex: "1", minWidth: "280px" }}>
           <div style={{ position: "relative" }}>
             <img src="/paintcars.jpg" alt="" style={{ width: "100%", height: "220px", objectFit: "cover", display: "block" }} />
             <span style={{ position: "absolute", top: "12px", right: "12px", background: "rgba(0,0,0,0.7)", color: "white", padding: "4px 12px", borderRadius: "20px", fontSize: "12px" }}>1-3 DAYS</span>
@@ -86,7 +86,7 @@ const Feature = () => {
             <p style={{ color: "white", fontSize: "14px", marginBottom: "8px" }}>✓ Finishing polish before protection layer</p>
 
 
-           <div style={{display:"flex", gap:"10px", marginTop:"20px", flexWrap:"nowrap", width:"100%"}}>
+           <div  style={{display:"flex", gap:"10px", marginTop:"20px", flexWrap:"nowrap", width:"100%"}}>
   <button style={{background:"#f4c430", border:"none", padding:isMobile?"10px 8px":"11px 18px", borderRadius:"8px", fontWeight:"600", cursor:"pointer", fontSize:isMobile?"11px":"10px", flex:"1"}}>
     SEE TRANSFORMATIONS
   </button>
@@ -98,7 +98,7 @@ const Feature = () => {
           </div>
         </div>
 
-        <div style={{ background: "#111", border: "1px solid #2a2a2a", borderRadius: "16px", overflow: "hidden", flex: "1", minWidth: "280px" }}>
+        <div  className="image-card"  style={{ background: "#111", border: "1px solid #2a2a2a", borderRadius: "16px", overflow: "hidden", flex: "1", minWidth: "280px" }}>
           <div style={{ position: "relative" }}>
             <img src="/interiorcars.jpg" alt="" style={{ width: "100%", height: "220px", objectFit: "cover", display: "block" }} />
             <span style={{ position: "absolute", top: "12px", right: "12px", background: "rgba(0,0,0,0.7)", color: "white", padding: "4px 12px", borderRadius: "20px", fontSize: "12px" }}>6-10 HOURS</span>
