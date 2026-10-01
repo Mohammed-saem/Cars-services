@@ -87,7 +87,8 @@ const Feature = () => {
 
 
            <div  style={{display:"flex", gap:"10px", marginTop:"20px", flexWrap:"nowrap", width:"100%"}}>
-  <button style={{background:"#f4c430", border:"none", padding:isMobile?"10px 8px":"11px 18px", borderRadius:"8px", fontWeight:"600", cursor:"pointer", fontSize:isMobile?"11px":"10px", flex:"1"}}>
+
+  <button onClick={()=>navigate("/Gallary")} style={{background:"#f4c430", border:"none", padding:isMobile?"10px 8px":"11px 18px", borderRadius:"8px", fontWeight:"600", cursor:"pointer", fontSize:isMobile?"11px":"10px", flex:"1"}}>
     SEE TRANSFORMATIONS
   </button>
 

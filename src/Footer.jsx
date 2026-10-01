@@ -42,8 +42,9 @@ const Footer = () => {
 
         <div style={{ textAlign: "center" }}>
           <p className="fade-up" style={{ fontSize: isMobile ? "18px" : "25px" }}>Prime Detailing Studio</p>
-          <h3 className="fade-up"  style={{ fontSize: isMobile ? "22px" : "35px", lineHeight: "1.3" }}>Precision detailing crafted for <br />collectors and performance <br />vehicles.</h3>
-          <span style={{ fontSize: isMobile ? "18px" : "25px" }}>+91 9461047417</span>
+          <h3 className="fade-up"  style={{ fontSize: isMobile ? "22px" : "35px", lineHeight: "1.3" }}>Precision detailing crafted 
+            for <br />collectors and performance <br />vehicles.</h3>
+          <span style={{ fontSize: isMobile ? "18px" : "25px" }}>+91 94610*****</span>
         </div>
 
         <div className="icons" style={{ display: "flex", gap: isMobile ? "30px" : "40px", alignItems: "center", justifyContent: "center", flexWrap: "wrap" }}>

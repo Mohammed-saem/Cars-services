@@ -107,7 +107,9 @@ const Garage = () => {
               <p>✓ Chemical resistance and swirl defence</p>
               <p>✓ Documented curing and aftercare briefing</p>
             </div>
-            <div style={{ display: "flex", gap: "12px", marginTop: "30px", flexWrap: "wrap" }}>
+
+
+            <div style={{ display: "flex", gap: "12px", marginTop: "30px", flexWrap: "wrap",justifyContent:"center" }}>
               <button onClick={() => navigate('/Contact')} style={{ background: "#f4c430", border: "none", padding: "12px 20px", borderRadius: "8px", fontWeight: "600", cursor: "pointer" }}>
                 RESERVE SLOT
               </button>
@@ -149,10 +151,12 @@ const Garage = () => {
               <p>✓ Single or multi-stage correction plans</p>
               <p>✓ Finishing polish before protection layer</p>
             </div>
-            <div style={{ display: "flex", gap: "12px", marginTop: "30px", flexWrap: "wrap" }}>
-              <button style={{ background: "#f4c430", border: "none", padding: "12px 20px", borderRadius: "8px", fontWeight: "600", cursor: "pointer", fontSize: "13px" }}>
+            <div style={{ display: "flex", gap: "12px", marginTop: "30px", flexWrap: "wrap",justifyContent:"center" }}>
+
+              <button onClick={()=>navigate("/Gallary")} style={{ background: "#f4c430", border: "none", padding: "12px 20px", borderRadius: "8px", fontWeight: "600", cursor: "pointer", fontSize: "13px" }}>
                 SEE TRANSFORMATIONS
               </button>
+
               <button onClick={() => navigate('/Service')} style={{ background: "#1c1c1c", border: "1px solid #333", color: "white", padding: "12px 20px", borderRadius: "8px", cursor: "pointer" }}>
                 ALL SERVICES
               </button>
@@ -190,7 +194,10 @@ const Garage = () => {
               <p>✓ Trim revival without greasy residue</p>
               <p>✓ Odor-neutralizing treatment optional</p>
             </div>
-            <div style={{ display: "flex", gap: "12px", marginTop: "30px", flexWrap: "wrap" }}>
+
+
+            <div style={{ display: "flex", gap: "12px", marginTop: "30px", flexWrap: "wrap" ,justifyContent:"center"}}>
+
               <button onClick={() => navigate('/Contact')} style={{ background: "#f4c430", border: "none", padding: "12px 20px", borderRadius: "8px", fontWeight: "600", cursor: "pointer" }}>
                 BOOK INTERIOR
               </button>
